@@ -1,6 +1,7 @@
-import numpy as np
 def statistics(grades):
 
+    import numpy as np
+    
     mean = np.mean(grades)
     std = np.std(grades)
     high_score = max(grades)
