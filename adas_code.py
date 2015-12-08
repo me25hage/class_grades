@@ -4,4 +4,3 @@ def read_data(x):
     grades = columns[1]
     return grades
 
-print read_data('grades1.csv')
