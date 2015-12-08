@@ -6,7 +6,4 @@ def statistics(grades):
     high_score = max(grades)
     low_score = min(grades)
     
-    return mean
-    return std
-    return high_score
-    return low_score
+    return mean,std,high_score,low_score
